@@ -1,24 +1,27 @@
-import logo from './logo.svg';
+import Menu from './Paginas/Menu';
+import Submenu from './Paginas/Submenu'
+import VerCts from './Paginas/Jsx/Clientes/index';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        < Menu />
       </header>
+      <main>
+      <div>
+        < Submenu />
+      </div>
+      <div>
+        < VerCts />
+      </div>
+      <div>
+        <p>@fyAlfa</p>
+      </div>
+    </main>
     </div>
+
   );
 }
 
