@@ -12,11 +12,9 @@ uso de props:
 class nuevoC4 extends Component{
 
     render(){
-    return <div>
+    return <div className="cliente4">
                 <p>Mi nombre es {this.props.nombre}, soy un
                 cliente y tengo {this.props.edad} años</p>
-                    {this.props.children}
-
              </div>
     }
 }

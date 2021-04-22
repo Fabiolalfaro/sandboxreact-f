@@ -11,3 +11,73 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.controles{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.cuadro{
+  padding: 10px;
+  height: 200px;
+  width: 200px;
+}
+
+.control{
+  border: 1px solid rgb(203, 2, 253);
+  justify-content: center;
+  width: 200px;
+}
+
+.control3{
+  border: 1px solid rgb(203, 2, 253);
+  justify-content: center;
+  width: 250px;
+}
+
+.control2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn2{
+  padding: 10px;
+  margin: 10px;
+  
+  /* IMPORTANTE */
+  display: inline-block;
+}
+
+.cliente1{
+  background-color: rgb(83, 18, 109);
+  color:aliceblue;
+}
+
+.cliente2{
+  background-color: rgb(27, 9, 34);
+  color:rgb(177, 108, 168);
+  text-shadow: 1px 1px rgb(116, 52, 146);
+}
+
+.cliente3{
+  
+  background-color: rgb(230, 188, 247);
+  color:rgb(43, 1, 37);
+  text-decoration:wavy;
+  
+}
+
+.cliente4{
+  
+  background-color: rgb(143, 99, 160);
+  color:rgb(43, 1, 37);
+  text-decoration: underline;
+  
+}
+
+.cliente13{
+  background-color: rgb(83, 18, 109);
+  color:aliceblue;
+}
