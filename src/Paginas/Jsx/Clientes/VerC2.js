@@ -13,7 +13,8 @@ const vendeDos=[
     {nombre:"Roxana", edad:"30"}
 ];
 
-class VerC2 extends Component{
+class VerC2 extends Component {
+    
 
     state = {
         vendedores:vendedores
@@ -23,22 +24,9 @@ class VerC2 extends Component{
     
     render() {
         return (<div>
-            {this.state.vendedores.map((ele, i)=>(
-                if(i==0){
-                <NuevoC4a
-                   nombre= {<p key={i}>{ele.nombre} - {i}</p>}
-                   edad = {<p key={i} >{ele.edad} - {i} </p>}
-                > 
-                    <p> Pollo Campero</p>
-                
-                </NuevoC4a>   
-                
-                }else if(i==1){
-                    <NuevoC4a
-                    nombre= {<p key={i}>{ele.nombre} - {i}</p>}
-                    edad = {<p key={i} >{ele.edad} - {i} </p>}
-                 />
-                }
+            {this.state.vendedores.map((ele)=>(
+                <NuevoC4a nombre={ele.nombre} edad={ele.edad} />
+            
             ))}
 
             <span className="btn2 btn btn-primary"

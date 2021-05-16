@@ -10,7 +10,7 @@ uso de props:
 -class based component
 */
 
-const nuevoC4a =(props,{nombre,edad}) => {
+const nuevoC4a =({nombre,edad,cliente}) => {
 
     return <div class="container">
                 <div class="row justify-content-md-center">
@@ -21,7 +21,7 @@ const nuevoC4a =(props,{nombre,edad}) => {
                         {edad}
                     </div>
                     <div class="col col-lg-2">
-                        {props.children}
+                        {cliente}
                     </div>
                 </div>
             </div>    
